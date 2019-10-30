@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# encoding: UTF-8
+>>>>>>> d18632242e7e920b7ccd3f2646fb48a6069e91aa
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -13,9 +17,15 @@
 ActiveRecord::Schema.define(version: 20150915202821) do
 
   create_table "cats", force: :cascade do |t|
+<<<<<<< HEAD
     t.string "name"
     t.integer "age"
     t.string "breed"
+=======
+    t.string  "name"
+    t.integer "age"
+    t.string  "breed"
+>>>>>>> d18632242e7e920b7ccd3f2646fb48a6069e91aa
     t.integer "owner_id"
   end
 
